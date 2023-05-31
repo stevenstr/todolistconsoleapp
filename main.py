@@ -27,6 +27,7 @@ class BadPriorityError(Exception):
 
         Inherited from Exception class.
         """
+
         super().__init__(message)
         self.head = head
         self.message = message
@@ -49,6 +50,7 @@ class BadIdError(Exception):
 
         Inherited from Exception class.
         """
+
         super().__init__(message)
         self.head = head
         self.message = message
@@ -71,6 +73,7 @@ class BadNameError(Exception):
 
         Inherited from Exception class.
         """
+
         super().__init__(message)
         self.head = head
         self.message = message
