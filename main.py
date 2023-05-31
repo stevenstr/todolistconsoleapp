@@ -34,9 +34,10 @@ class BadPriorityError(Exception):
         Inherited from Exception class.
         """
 
-        super().__init__(message)
+        super().__init__()
         self.head = head
         self.message = message
+        self.f = 1000
 
 
 class BadIdError(Exception):
