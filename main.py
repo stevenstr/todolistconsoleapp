@@ -39,6 +39,8 @@ class BadPriorityError(Exception):
         self.message = message
         self.f = 1000
 
+        self.f = 990
+
 
 class BadIdError(Exception):
     """ID has wrong value.
