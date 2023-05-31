@@ -37,9 +37,7 @@ class BadPriorityError(Exception):
         super().__init__()
         self.head = head
         self.message = message
-        self.f = 1000
-
-        self.f = 990
+        self.f = 995
 
 
 class BadIdError(Exception):
