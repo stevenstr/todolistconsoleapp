@@ -3,7 +3,6 @@
 Create Client_ToDo instance to use method to manage to-do list.
 
 Typical usage example:
-
     client = Client_ToDo()
 """
 
