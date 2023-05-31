@@ -3,10 +3,16 @@
 Create Client_ToDo instance to use method to manage to-do list.
 
 Typical usage example:
-    client = Client_ToDo()
+
+
+
+    client = Client_ToDo()              
 """
 
+
 import requests
+
+
 import json
 
 
@@ -14,7 +20,7 @@ class BadPriorityError(Exception):
     """Task priority has wrong value.
 
     Attributes::
-        head: Text with type of error.
+        head: Text with type of     error.
         message: Text with error message.
     """
 
