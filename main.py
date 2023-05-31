@@ -38,6 +38,8 @@ class BadPriorityError(Exception):
         self.head = head
         self.message = message
 
+        self.f = 990
+
 
 class BadIdError(Exception):
     """ID has wrong value.
